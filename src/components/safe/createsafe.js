@@ -3,7 +3,7 @@ import {useEffect,useState} from 'react';
 import { faMinusCircle} from '@fortawesome/free-solid-svg-icons'
 var Web3 = require('web3');
 import {  useDispatch } from 'react-redux'
-import {  _setallsafe} from '../../../lib/reducers/connectionslice';
+import {  _setallsafe} from '../../store/reducers/connectionslice';
 
 const { ethers } = require("ethers");
 const { abi } = require("../../../artifacts/contracts/Wallet.sol/Wallet.json"); // abi to use the multi-sig wallet. 

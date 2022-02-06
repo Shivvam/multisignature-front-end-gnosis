@@ -1,4 +1,4 @@
-import supabase from '../../lib/services/supabase';
+import supabase from '../../services/supabase';
 import jwt from 'jsonwebtoken'
 const connectAPI = async (req,res) => {
 
