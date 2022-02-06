@@ -14,7 +14,7 @@ import RemoveOwnerApproveModal from './remove_owner_approval'
 
 var Web3 = require('web3');
 
-import {getWalletBalance,getWalletThreshould, getWalletPendingTX,getWalletPendingUpdateTS,getOwnersAddress} from '../../lib/helper/helper';  // Helpers to get the data from Wallet
+import {getWalletBalance,getWalletThreshould, getWalletPendingTX,getWalletPendingUpdateTS,getOwnersAddress} from '../../../lib/helper/helper';  // Helpers to get the data from Wallet
 
 
 
