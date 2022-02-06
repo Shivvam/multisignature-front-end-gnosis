@@ -1,7 +1,8 @@
 import {useEffect,useState} from 'react';
 import SafeOwners from './safeowners';
- import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashAlt, faEdit , faPaperPlane, faCheckCircle, faUserPlus, faUserMinus} from '@fortawesome/free-solid-svg-icons'
+
 import UpdateThresholdModal from './update_threshold_request';
 import UpdateThresholdApprovalModal from './update_threshold_approval';
 import TxRequestModal from './transaction_request';
