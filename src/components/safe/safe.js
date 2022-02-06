@@ -17,7 +17,7 @@ import {getWalletBalance,getWalletThreshould, getWalletPendingTX,getWalletPendin
 
 
 
-export default function({safe,idx}) {
+export default function SingleSafe({safe,idx}) {
 
 
     const [updateThresholdReqestModalOpen,setupdateThresholdReqestModalOpen] = useState(false);
