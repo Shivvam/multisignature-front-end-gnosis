@@ -103,11 +103,11 @@ export default function SingleSafe({safe,idx}) {
         if(parseInt(thereshould)){
             setwalletThereshould(parseInt(thereshould))
         }
-        if(pendingUpdateThresholdData&&(pendingUpdateThresholdData?.length>0)){
+        if(pendingTS&&(pendingTS?.length>0)){
             setpendingUpdateThresholdData(pendingTS);
  
         }
-        if(pendingTransactionsData&&(pendingTransactionsData?.length>0)){
+        if(pendingTX&&(pendingTX?.length>0)){
           setpendingTransactionsData(pendingTX);
         }
         if(allOweners&&(allOweners?.length>0)){
